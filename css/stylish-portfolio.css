@@ -120,7 +120,7 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/Background-1.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -149,6 +149,7 @@ h6 {
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
+  color: rgba(105,105,105,.5);
 }
 
 #sideNav .navbar-toggler:focus {
@@ -251,7 +252,7 @@ main {
   width: 50px;
   height: 50px;
   text-align: center;
-  color: #fff;
+  color: #847d7d;
   background: rgba(52, 58, 64, 0.5);
   line-height: 50px;
   z-index: 999;
@@ -278,7 +279,7 @@ main {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg2.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -418,7 +419,8 @@ a:hover, a:focus, a:active {
 }
 
 .bg-primary {
-  background-color: #137CB3 !important;
+  background-color: #cacacaf2 !important;
+  /*#0072ff  Very nice blue*/ 
 }
 
 .text-primary {
